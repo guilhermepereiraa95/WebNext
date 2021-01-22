@@ -3,8 +3,12 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Title = styled.h1`
-    font-size:30px;
-    color: red;
+    font-size:90px;
+    color: #000;
+    text-shadow: 10px 10px 15px;
+    font-family: Russo One, sans-serif;
+    text-align:center;
+    margin-top: 100px;
 `;
 
 
@@ -12,9 +16,11 @@ const Title = styled.h1`
 function Home(){
     return (
         <div>
-            <div class="container">
-                <Title>Home</Title>
+            <div class="container text-center">
+                <div class="col-12">
+                <Title>Counter</Title>
                 <Contador />
+                </div>
             </div>
         </div>
     )
@@ -30,7 +36,7 @@ function Contador(){
 
     return(
         <div>
-            <div>{contador}</div>
+            <div class="jumbotron">{contador}</div>
 
             
             <button class="btn btn-primary"onClick={adicionarContador}>Adicionar</button>
