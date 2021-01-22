@@ -1,9 +1,11 @@
 import {useState} from 'react';
+import Head from 'next/head';
 
 function Home(){
     return (
         <div>
-            Home
+            <Head>Home</Head>
+            
             
         <Contador />
         </div>
