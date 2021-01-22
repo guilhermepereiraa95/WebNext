@@ -39,7 +39,7 @@ function Contador(){
             <div class="jumbotron">{contador}</div>
 
             
-            <button class="btn btn-primary"onClick={adicionarContador}>Adicionar</button>
+            <button class="btn btn-primary"onClick={adicionarContador}>Click to add</button>
         </div>
     )
 }
