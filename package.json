@@ -1,0 +1,25 @@
+{
+  "name": "webnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermepereiraa95/webnext.git"
+  },
+  "author": "Guilherme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermepereiraa95/webnext/issues"
+  },
+  "homepage": "https://github.com/guilhermepereiraa95/webnext#readme",
+  "dependencies": {
+    "next": "^10.0.5",
+    "node": "^15.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
