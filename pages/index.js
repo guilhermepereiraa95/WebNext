@@ -1,13 +1,21 @@
 import {useState} from 'react';
-import Head from 'next/head';
+import styled from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const Title = styled.h1`
+    font-size:30px;
+    color: red;
+`;
+
+
 
 function Home(){
     return (
         <div>
-            <Head>Home</Head>
-            
-            
-        <Contador />
+            <div class="container">
+                <Title>Home</Title>
+                <Contador />
+            </div>
         </div>
     )
 }
@@ -25,7 +33,7 @@ function Contador(){
             <div>{contador}</div>
 
             
-            <button onClick={adicionarContador}>Adicionar</button>
+            <button class="btn btn-primary"onClick={adicionarContador}>Adicionar</button>
         </div>
     )
 }
