@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Menu from './menu';
+
 
 const Title = styled.h1`
     font-size:90px;
@@ -11,17 +13,17 @@ const Title = styled.h1`
     margin-top: 100px;
 `;
 
-
-
 function Home(){
     return (
         <div>
+            <Menu />
             <div class="container text-center">
                 <div class="col-12">
                 <Title>Counter</Title>
                 <Contador />
                 </div>
             </div>
+            
         </div>
     )
 }
