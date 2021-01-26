@@ -12,6 +12,7 @@ function Menu(){
                     <Link href="/">
                     <a class="nav-link">Counter <span class="sr-only"></span></a>
                     </Link>
+                    
                 </li>
                 <li class="nav-item">
                     <Link href="/calculator">
