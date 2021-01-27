@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/guilhermepereiraa95/webnext#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@icons-pack/react-simple-icons": "^4.0.0",
     "anime": "^0.1.2",
     "bootstrap": "^4.6.0",
+    "favicons": "^6.2.0",
+    "font-awesome-icons": "^1.6.0",
     "next": "^10.0.5",
     "node": "^15.4.0",
     "particles": "^0.3.1",

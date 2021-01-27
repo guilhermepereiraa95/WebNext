@@ -22,7 +22,7 @@ function Calculator(){
             <div class="container text-center">
                 <div class="col-12">
                 <Title>Calculator</Title>
-              
+                <Calculadora />
                 </div>
             </div>
             
@@ -33,16 +33,48 @@ function Calculator(){
 function Calculadora(){
    
 
+       function add(){
+
+        
+        alert(Number(n1.value) - Number(n2.value));
+           
+       }
+        function sub(){
+
+            alert(Number(n1.value) - Number(n2.value));
+            
+        }
+        function div(){
+            
+            
+            alert(Number(n1.value) / Number(n2.value));
+
+        }
+        function mul(){
+            
+            alert(Number(n1.value) * Number(n2.value));
+        }
+
     return(
+
         <div>
-            <input id="n1" placeholder="Número 1"></input>
-            
-            <input id="n2" placeholder="Número 2"></input>
+           
+        <div class="form-group">
 
-            <button value="+"></button>
-
+            <input id="n1"  placeholder="Número 1"></input>
             
-            <button class="btn btn-primary"onClick={adicionarContador}>Click to add</button>
+            <input id="n2"  placeholder="Número 2"></input>
+
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" onClick={add}>+</button>
+            <button class="btn btn-secondary" onClick={sub}>-</button>
+            <button class="btn btn-warning" onClick={div}>/</button>
+            <button class="btn btn-success" onClick={mul}>x</button>
+            
+        </div>
+
+          
         </div>
     )
 }
