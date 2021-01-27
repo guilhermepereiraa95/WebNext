@@ -37,28 +37,31 @@ function Calculadora(){
             n2.value = null;
         }
    
-
        function add(){
 
         
         alert(Number(n1.value) + Number(n2.value));
            
        }
+
         function sub(){
 
             alert(Number(n1.value) - Number(n2.value));
             
         }
+
         function div(){
             
             
             alert(Number(n1.value) / Number(n2.value));
 
         }
+
         function mul(){
             
             alert(Number(n1.value) * Number(n2.value));
         }
+
         function per(){
             
             alert(Number(n1.value) * 100 /  Number(n2.value));
