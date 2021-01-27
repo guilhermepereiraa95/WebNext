@@ -5,7 +5,7 @@ function Menu(){
     return(
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Next JS</a>
+            <a class="navbar-brand" href="#">Simple Counter and Calculator</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
