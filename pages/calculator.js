@@ -33,8 +33,8 @@ function Calculator(){
 function Calculadora(){
 
         function del(){
-            n1.value = 0;
-            n2.value = 0;
+            n1.value = null;
+            n2.value = null;
         }
    
 
