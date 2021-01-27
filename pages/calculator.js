@@ -36,7 +36,7 @@ function Calculadora(){
        function add(){
 
         
-        alert(Number(n1.value) - Number(n2.value));
+        alert(Number(n1.value) + Number(n2.value));
            
        }
         function sub(){
