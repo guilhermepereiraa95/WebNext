@@ -31,6 +31,11 @@ function Calculator(){
 }
 
 function Calculadora(){
+
+        function del(){
+            n1.value = 0;
+            n2.value = 0;
+        }
    
 
        function add(){
@@ -54,7 +59,11 @@ function Calculadora(){
             
             alert(Number(n1.value) * Number(n2.value));
         }
-
+        function per(){
+            
+            alert(Number(n1.value) * 100 /  Number(n2.value));
+        }
+        
     return(
 
         <div>
@@ -71,7 +80,11 @@ function Calculadora(){
             <button class="btn btn-secondary" onClick={sub}>-</button>
             <button class="btn btn-warning" onClick={div}>/</button>
             <button class="btn btn-success" onClick={mul}>x</button>
+            <button class="btn btn-dark" onClick={per}>%</button>
             
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" onClick={del}>C</button>
         </div>
 
           
