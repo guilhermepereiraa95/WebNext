@@ -19,7 +19,12 @@ function Menu(){
                     <a class="nav-link" href="#">Calculator</a>
                     </Link>
                 </li>      
-            
+                <li class="nav-item">
+                    <Link href="/tempo">
+                    <a class="nav-link">Clock  <span class="sr-only"></span></a>
+                    </Link>
+                    
+                </li>
                 </ul>   
             </div>
             </nav>
