@@ -1,5 +1,7 @@
 import Menu from './menu';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Tempo(props){
 
     const dynamicDate = new Date();
