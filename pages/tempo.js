@@ -6,6 +6,7 @@ function Tempo(props){
     return(
 
         <div>
+            <Menu />
             <div>
                 {dynamicDateString} <p>(Dinâmico)</p>
             </div>   
