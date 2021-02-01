@@ -21,7 +21,7 @@ function Menu(){
                 </li>      
                 <li class="nav-item">
                     <Link href="/tempo">
-                    <a class="nav-link">Clock  <span class="sr-only"></span></a>
+                    <a class="nav-link">Clock  </a>
                     </Link>
                     
                 </li>
