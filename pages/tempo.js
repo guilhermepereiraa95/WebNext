@@ -1,3 +1,5 @@
+import Menu from './menu';
+
 function Tempo(props){
 
     const dynamicDate = new Date();
